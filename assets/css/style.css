@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/crystals.jpg");
+}
+
+#cc {
+    color: orange;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+#info {
+    color: rgb(212, 245, 63);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-left: 45px;
+    text-align: left;
+}
+
+.numberBox {
+	font-size: 100px;
+	margin: 0px;
+}
+
+#crystalButton {
+	padding: 0px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.crystalImg {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#gameSection {
+    color: rgb(78, 237, 248);
+}
+
+#scoreSection {
+    color: rgb(78, 237, 248);
+}
