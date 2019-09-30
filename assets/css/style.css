@@ -1,45 +1,66 @@
 body {
-    background-image: url("../images/crystals.jpg");
+    background-image: url("../images/crystal-bg.png");
+    background-size: cover;
 }
 
-#cc {
-    color: orange;
-    font-weight: bold;
-    font-size: 70px;
+#Title {
+    color: black;
+    Font-Family: 'Permanent Marker', Cursive;
+    font-size: 70px !important;
     text-align: center;
-
+    border-bottom: 3px solid black;
 }
 
-#info {
-    color: rgb(212, 245, 63);
+#Instructions {
+    color: black;
+    background-color: white;
     font-size: 25px;
-    font-weight: bolder;
-    margin-top: 5%;
-    margin-left: 45px;
-    text-align: left;
+    Font-Family: 'Overpass', Sans-Serif;
+    margin-top: 3%;
+    border: 3px solid black;
+}
+
+#Instructions li {
+    margin-left: 20px;
+}
+
+.Game-Div {
+    border-top: 3px solid black;
+    margin-top: 3%;
 }
 
 .numberBox {
-	font-size: 100px;
-	margin: 0px;
+    font-size: 100px;
+    margin: 0px;
 }
 
 #crystalButton {
-	padding: 0px;
-	padding-top: 50px;
-	padding-bottom: 25px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .crystalImg {
     width: 100px;
     height: 100px;
-    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.crystalImg:hover {
+    -webkit-box-shadow: 0 10px 6px -6px black;
+    -moz-box-shadow: 0 10px 6px -6px black;
+    box-shadow: 0 10px 6px -6px black;
 }
 
 #gameSection {
-    color: rgb(78, 237, 248);
+    color: black;
+    Font-Family: 'Permanent Marker', Cursive;
 }
 
 #scoreSection {
-    color: rgb(78, 237, 248);
+    color: black;
+    Font-Family: 'Permanent Marker', Cursive;
 }
